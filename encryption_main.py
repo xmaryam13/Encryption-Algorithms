@@ -40,6 +40,6 @@ def find_hash(original_hash):
         if word_hash == original_hash:
             return hash_elem
 
-hash = 'ac3751fa101668c6de2002356d9a032b''
+hash = 'ac3751fa101668c6de2002356d9a032b'
 answer = find_hash(hash)
 print(f"Collision!  The word corresponding to the given hash is '{answer}'")
